@@ -1,0 +1,223 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: A股智能分析系统
+    - generic [ref=e5]:
+      - button "股票分析" [ref=e6] [cursor=pointer]
+      - button "今日推荐" [ref=e7] [cursor=pointer]
+      - button "我的自选" [ref=e8] [cursor=pointer]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - textbox "输入A股代码，如 600519" [ref=e13]: "600519"
+        - button "开始分析" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "贵州茅台" [ref=e16] [cursor=pointer]
+        - button "宁德时代" [ref=e17] [cursor=pointer]
+        - button "比亚迪" [ref=e18] [cursor=pointer]
+        - button "招商银行" [ref=e19] [cursor=pointer]
+        - button "中国平安" [ref=e20] [cursor=pointer]
+        - button "五粮液" [ref=e21] [cursor=pointer]
+        - button "美的集团" [ref=e22] [cursor=pointer]
+        - button "隆基绿能" [ref=e23] [cursor=pointer]
+        - button "长江电力" [ref=e24] [cursor=pointer]
+        - button "中国中免" [ref=e25] [cursor=pointer]
+    - generic [ref=e26]:
+      - heading "贵州茅台 600519" [level=2] [ref=e27]
+      - paragraph [ref=e28]: "数据来源: 腾讯财经"
+      - generic [ref=e29]:
+        - img [ref=e31]
+        - generic [ref=e34]: "42"
+        - generic [ref=e35]: 偏空持有
+      - generic [ref=e36]:
+        - heading "偏空持有" [level=2] [ref=e37]
+        - paragraph [ref=e38]: 综合评分 42/100
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 当前价
+          - generic [ref=e42]: "1412.01"
+        - generic [ref=e43]:
+          - generic [ref=e44]: MA5
+          - generic [ref=e45]: "1432.1"
+        - generic [ref=e46]:
+          - generic [ref=e47]: MA10
+          - generic [ref=e48]: "1443.02"
+        - generic [ref=e49]:
+          - generic [ref=e50]: MA20
+          - generic [ref=e51]: "1437.72"
+        - generic [ref=e52]:
+          - generic [ref=e53]: RSI(14)
+          - generic [ref=e54]: "38.6"
+        - generic [ref=e55]:
+          - generic [ref=e56]: MACD
+          - generic [ref=e57]: "-2.28"
+        - generic [ref=e58]:
+          - generic [ref=e59]: KDJ-K
+          - generic [ref=e60]: "28.8"
+        - generic [ref=e61]:
+          - generic [ref=e62]: 布林中轨
+          - generic [ref=e63]: "1437.72"
+        - generic [ref=e64]:
+          - generic [ref=e65]: ATR
+          - generic [ref=e66]: "22.59"
+      - generic [ref=e67]:
+        - generic [ref=e68]: 跌破20日线
+        - generic [ref=e69]: RSI中性(38.6)
+      - generic [ref=e70]:
+        - button "K线图表" [ref=e71] [cursor=pointer]
+        - button "买卖信号" [active] [ref=e72] [cursor=pointer]
+        - button "历史数据" [ref=e73] [cursor=pointer]
+        - button "相关新闻" [ref=e74] [cursor=pointer]
+        - button "基本面" [ref=e75] [cursor=pointer]
+      - generic [ref=e89]:
+        - heading "最近买卖信号点" [level=3] [ref=e90]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: 2026-04-17
+              - generic [ref=e96]: MACD死叉
+            - generic [ref=e97]: SELL 1407.24
+          - generic [ref=e98]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: 2026-03-31
+              - generic [ref=e102]: MACD金叉
+            - generic [ref=e103]: BUY 1450.00
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - generic [ref=e107]: 2026-03-24
+              - generic [ref=e108]: MACD死叉
+            - generic [ref=e109]: SELL 1407.33
+          - generic [ref=e110]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: 2026-03-17
+              - generic [ref=e114]: MACD金叉
+            - generic [ref=e115]: BUY 1485.00
+          - generic [ref=e116]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: 2026-03-04
+              - generic [ref=e120]: RSI超卖
+            - generic [ref=e121]: BUY 1401.18
+          - generic [ref=e122]:
+            - generic [ref=e124]:
+              - generic [ref=e125]: 2026-02-26
+              - generic [ref=e126]: MACD死叉
+            - generic [ref=e127]: SELL 1466.21
+          - generic [ref=e128]:
+            - generic [ref=e130]:
+              - generic [ref=e131]: 2026-02-11
+              - generic [ref=e132]: RSI超买
+            - generic [ref=e133]: SELL 1504.33
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: 2026-02-05
+              - generic [ref=e138]: RSI超买
+            - generic [ref=e139]: SELL 1555.00
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: 2026-01-29
+              - generic [ref=e144]: MACD金叉
+            - generic [ref=e145]: BUY 1437.72
+          - generic [ref=e146]:
+            - generic [ref=e148]:
+              - generic [ref=e149]: 2026-01-23
+              - generic [ref=e150]: RSI超卖
+            - generic [ref=e151]: BUY 1337.00
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: 2026-01-15
+              - generic [ref=e156]: MACD死叉
+            - generic [ref=e157]: SELL 1388.89
+          - generic [ref=e158]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: 2026-01-05
+              - generic [ref=e162]: MACD金叉
+            - generic [ref=e163]: BUY 1426.00
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: 2025-12-31
+              - generic [ref=e168]: MACD死叉
+            - generic [ref=e169]: SELL 1377.18
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: 2025-12-17
+              - generic [ref=e174]: MACD金叉
+            - generic [ref=e175]: BUY 1409.14
+          - generic [ref=e176]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: 2025-12-05
+              - generic [ref=e180]: RSI超卖
+            - generic [ref=e181]: BUY 1406.05
+          - generic [ref=e182]:
+            - generic [ref=e184]:
+              - generic [ref=e185]: 2025-12-03
+              - generic [ref=e186]: RSI超卖
+            - generic [ref=e187]: BUY 1405.14
+          - generic [ref=e188]:
+            - generic [ref=e190]:
+              - generic [ref=e191]: 2025-11-26
+              - generic [ref=e192]: MACD死叉
+            - generic [ref=e193]: SELL 1425.19
+          - generic [ref=e194]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: 2025-11-10
+              - generic [ref=e198]: MACD金叉
+            - generic [ref=e199]: BUY 1438.34
+          - generic [ref=e200]:
+            - generic [ref=e202]:
+              - generic [ref=e203]: 2025-11-05
+              - generic [ref=e204]: RSI超卖
+            - generic [ref=e205]: BUY 1396.12
+          - generic [ref=e206]:
+            - generic [ref=e208]:
+              - generic [ref=e209]: 2025-10-28
+              - generic [ref=e210]: MACD死叉
+            - generic [ref=e211]: SELL 1421.04
+          - generic [ref=e212]:
+            - generic [ref=e214]:
+              - generic [ref=e215]: 2025-10-16
+              - generic [ref=e216]: MACD金叉
+            - generic [ref=e217]: BUY 1460.95
+          - generic [ref=e218]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: 2025-09-30
+              - generic [ref=e222]: RSI超卖
+            - generic [ref=e223]: BUY 1420.03
+          - generic [ref=e224]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: 2025-09-26
+              - generic [ref=e228]: RSI超卖
+            - generic [ref=e229]: BUY 1411.04
+          - generic [ref=e230]:
+            - generic [ref=e232]:
+              - generic [ref=e233]: 2025-09-18
+              - generic [ref=e234]: MACD死叉
+            - generic [ref=e235]: SELL 1444.00
+          - generic [ref=e236]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: 2025-08-25
+              - generic [ref=e240]: RSI超买
+            - generic [ref=e241]: SELL 1466.37
+          - generic [ref=e242]:
+            - generic [ref=e244]:
+              - generic [ref=e245]: 2025-08-19
+              - generic [ref=e246]: MACD金叉
+            - generic [ref=e247]: BUY 1414.04
+          - generic [ref=e248]:
+            - generic [ref=e250]:
+              - generic [ref=e251]: 2025-08-13
+              - generic [ref=e252]: RSI超卖
+            - generic [ref=e253]: BUY 1396.09
+          - generic [ref=e254]:
+            - generic [ref=e256]:
+              - generic [ref=e257]: 2025-08-01
+              - generic [ref=e258]: MACD死叉
+            - generic [ref=e259]: SELL 1393.04
+          - generic [ref=e260]:
+            - generic [ref=e262]:
+              - generic [ref=e263]: 2025-07-21
+              - generic [ref=e264]: RSI超买
+            - generic [ref=e265]: SELL 1419.04
+          - generic [ref=e266]:
+            - generic [ref=e268]:
+              - generic [ref=e269]: 2025-06-26
+              - generic [ref=e270]: MACD金叉
+            - generic [ref=e271]: BUY 1396.04

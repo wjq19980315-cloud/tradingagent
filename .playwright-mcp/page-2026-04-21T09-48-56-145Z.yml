@@ -1,0 +1,302 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: A股智能分析系统
+    - generic [ref=e5]:
+      - button "股票分析" [ref=e6] [cursor=pointer]
+      - button "今日推荐" [active] [ref=e7] [cursor=pointer]
+      - button "我的自选" [ref=e8] [cursor=pointer]
+  - generic [ref=e444]:
+    - heading "今日股票推荐" [level=2] [ref=e445]
+    - paragraph [ref=e446]: 基于技术指标综合评分，每4小时自动更新
+    - button "刷新推荐" [ref=e448] [cursor=pointer]
+    - generic [ref=e449]:
+      - generic [ref=e450] [cursor=pointer]:
+        - generic [ref=e451]: "1"
+        - generic [ref=e452]:
+          - generic [ref=e453]: 紫金矿业
+          - generic [ref=e454]: 601899 | 35.66
+          - generic [ref=e455]: 均线多头排列, 站上20日线, RSI中性(65.5)
+        - generic [ref=e456]:
+          - generic [ref=e457]: "81"
+          - generic [ref=e458]: 评分
+        - generic [ref=e459]: 建议买入
+      - generic [ref=e460] [cursor=pointer]:
+        - generic [ref=e461]: "2"
+        - generic [ref=e462]:
+          - generic [ref=e463]: 宁德时代
+          - generic [ref=e464]: 300750 | 447.6
+          - generic [ref=e465]: 均线多头排列, 站上20日线, RSI中性(67.2)
+        - generic [ref=e466]:
+          - generic [ref=e467]: "73"
+          - generic [ref=e468]: 评分
+        - generic [ref=e469]: 建议买入
+      - generic [ref=e470] [cursor=pointer]:
+        - generic [ref=e471]: "3"
+        - generic [ref=e472]:
+          - generic [ref=e473]: 招商银行
+          - generic [ref=e474]: 600036 | 39.87
+          - generic [ref=e475]: 均线多头排列, 站上20日线, RSI中性(56.4)
+        - generic [ref=e476]:
+          - generic [ref=e477]: "73"
+          - generic [ref=e478]: 评分
+        - generic [ref=e479]: 建议买入
+      - generic [ref=e480] [cursor=pointer]:
+        - generic [ref=e481]: "4"
+        - generic [ref=e482]:
+          - generic [ref=e483]: 东方财富
+          - generic [ref=e484]: 300059 | 19.94
+          - generic [ref=e485]: 均线多头排列, 站上20日线, RSI中性(62.6)
+        - generic [ref=e486]:
+          - generic [ref=e487]: "73"
+          - generic [ref=e488]: 评分
+        - generic [ref=e489]: 建议买入
+      - generic [ref=e490] [cursor=pointer]:
+        - generic [ref=e491]: "5"
+        - generic [ref=e492]:
+          - generic [ref=e493]: 中国联通
+          - generic [ref=e494]: 600050 | 4.66
+          - generic [ref=e495]: 均线多头排列, 站上20日线, RSI中性(69.8)
+        - generic [ref=e496]:
+          - generic [ref=e497]: "73"
+          - generic [ref=e498]: 评分
+        - generic [ref=e499]: 建议买入
+      - generic [ref=e500] [cursor=pointer]:
+        - generic [ref=e501]: "6"
+        - generic [ref=e502]:
+          - generic [ref=e503]: 长江电力
+          - generic [ref=e504]: 600900 | 27.13
+          - generic [ref=e505]: 站上20日线, RSI中性(52.1), MACD金叉
+        - generic [ref=e506]:
+          - generic [ref=e507]: "70"
+          - generic [ref=e508]: 评分
+        - generic [ref=e509]: 建议买入
+      - generic [ref=e510] [cursor=pointer]:
+        - generic [ref=e511]: "7"
+        - generic [ref=e512]:
+          - generic [ref=e513]: 美的集团
+          - generic [ref=e514]: 000333 | 79.5
+          - generic [ref=e515]: 均线多头排列, 站上20日线, RSI超买(70.4)
+        - generic [ref=e516]:
+          - generic [ref=e517]: "65"
+          - generic [ref=e518]: 评分
+        - generic [ref=e519]: 偏多持有
+      - generic [ref=e520] [cursor=pointer]:
+        - generic [ref=e521]: "8"
+        - generic [ref=e522]:
+          - generic [ref=e523]: 伊利股份
+          - generic [ref=e524]: 600887 | 25.56
+          - generic [ref=e525]: 跌破20日线, RSI超卖(26.6), KDJ超卖区(K:17)
+        - generic [ref=e526]:
+          - generic [ref=e527]: "58"
+          - generic [ref=e528]: 评分
+        - generic [ref=e529]: 偏多持有
+      - generic [ref=e530] [cursor=pointer]:
+        - generic [ref=e531]: "9"
+        - generic [ref=e532]:
+          - generic [ref=e533]: 工商银行
+          - generic [ref=e534]: 601398 | 7.62
+          - generic [ref=e535]: 站上20日线, RSI中性(48.9)
+        - generic [ref=e536]:
+          - generic [ref=e537]: "58"
+          - generic [ref=e538]: 评分
+        - generic [ref=e539]: 偏多持有
+      - generic [ref=e540] [cursor=pointer]:
+        - generic [ref=e541]: "10"
+        - generic [ref=e542]:
+          - generic [ref=e543]: 海康威视
+          - generic [ref=e544]: 002415 | 33.73
+          - generic [ref=e545]: 均线多头排列, 站上20日线, RSI超买(72.0)
+        - generic [ref=e546]:
+          - generic [ref=e547]: "57"
+          - generic [ref=e548]: 评分
+        - generic [ref=e549]: 偏多持有
+      - generic [ref=e550] [cursor=pointer]:
+        - generic [ref=e551]: "11"
+        - generic [ref=e552]:
+          - generic [ref=e553]: 中信证券
+          - generic [ref=e554]: 600030 | 26.3
+          - generic [ref=e555]: 均线多头排列, 站上20日线, RSI超买(72.6)
+        - generic [ref=e556]:
+          - generic [ref=e557]: "57"
+          - generic [ref=e558]: 评分
+        - generic [ref=e559]: 偏多持有
+      - generic [ref=e560] [cursor=pointer]:
+        - generic [ref=e561]: "12"
+        - generic [ref=e562]:
+          - generic [ref=e563]: 牧原股份
+          - generic [ref=e564]: 002714 | 45.48
+          - generic [ref=e565]: 站上20日线, RSI中性(68.5), KDJ死叉
+        - generic [ref=e566]:
+          - generic [ref=e567]: "50"
+          - generic [ref=e568]: 评分
+        - generic [ref=e569]: 观望等待
+      - generic [ref=e570] [cursor=pointer]:
+        - generic [ref=e571]: "13"
+        - generic [ref=e572]:
+          - generic [ref=e573]: 紫光国微
+          - generic [ref=e574]: 002049 | 70.27
+          - generic [ref=e575]: 站上20日线, RSI中性(62.0), KDJ死叉
+        - generic [ref=e576]:
+          - generic [ref=e577]: "50"
+          - generic [ref=e578]: 评分
+        - generic [ref=e579]: 观望等待
+      - generic [ref=e580] [cursor=pointer]:
+        - generic [ref=e581]: "14"
+        - generic [ref=e582]:
+          - generic [ref=e583]: 立讯精密
+          - generic [ref=e584]: 002475 | 65.75
+          - generic [ref=e585]: 均线多头排列, 站上20日线, RSI严重超买(86.4)
+        - generic [ref=e586]:
+          - generic [ref=e587]: "50"
+          - generic [ref=e588]: 评分
+        - generic [ref=e589]: 观望等待
+      - generic [ref=e590] [cursor=pointer]:
+        - generic [ref=e591]: "15"
+        - generic [ref=e592]:
+          - generic [ref=e593]: 中国平安
+          - generic [ref=e594]: 601318 | 58.03
+          - generic [ref=e595]: 站上20日线, MA5/10死叉, RSI中性(55.7)
+        - generic [ref=e596]:
+          - generic [ref=e597]: "48"
+          - generic [ref=e598]: 评分
+        - generic [ref=e599]: 观望等待
+      - generic [ref=e600] [cursor=pointer]:
+        - generic [ref=e601]: "16"
+        - generic [ref=e602]:
+          - generic [ref=e603]: 隆基绿能
+          - generic [ref=e604]: 601012 | 17.59
+          - generic [ref=e605]: 跌破20日线, RSI中性(50.6)
+        - generic [ref=e606]:
+          - generic [ref=e607]: "48"
+          - generic [ref=e608]: 评分
+        - generic [ref=e609]: 观望等待
+      - generic [ref=e610] [cursor=pointer]:
+        - generic [ref=e611]: "17"
+        - generic [ref=e612]:
+          - generic [ref=e613]: 恒瑞医药
+          - generic [ref=e614]: 600276 | 55.75
+          - generic [ref=e615]: 跌破20日线, RSI中性(52.1)
+        - generic [ref=e616]:
+          - generic [ref=e617]: "48"
+          - generic [ref=e618]: 评分
+        - generic [ref=e619]: 观望等待
+      - generic [ref=e620] [cursor=pointer]:
+        - generic [ref=e621]: "18"
+        - generic [ref=e622]:
+          - generic [ref=e623]: 海螺水泥
+          - generic [ref=e624]: 600585 | 22.03
+          - generic [ref=e625]: 均线空头排列, 跌破20日线, RSI超卖(25.8)
+        - generic [ref=e626]:
+          - generic [ref=e627]: "43"
+          - generic [ref=e628]: 评分
+        - generic [ref=e629]: 偏空持有
+      - generic [ref=e630] [cursor=pointer]:
+        - generic [ref=e631]: "19"
+        - generic [ref=e632]:
+          - generic [ref=e633]: 贵州茅台
+          - generic [ref=e634]: 600519 | 1412.01
+          - generic [ref=e635]: 跌破20日线, RSI中性(38.6)
+        - generic [ref=e636]:
+          - generic [ref=e637]: "42"
+          - generic [ref=e638]: 评分
+        - generic [ref=e639]: 偏空持有
+      - generic [ref=e640] [cursor=pointer]:
+        - generic [ref=e641]: "20"
+        - generic [ref=e642]:
+          - generic [ref=e643]: 平安银行
+          - generic [ref=e644]: 000001 | 11.08
+          - generic [ref=e645]: 站上20日线, MA5/10死叉, RSI中性(50.0)
+        - generic [ref=e646]:
+          - generic [ref=e647]: "42"
+          - generic [ref=e648]: 评分
+        - generic [ref=e649]: 偏空持有
+      - generic [ref=e650] [cursor=pointer]:
+        - generic [ref=e651]: "21"
+        - generic [ref=e652]:
+          - generic [ref=e653]: 药明康德
+          - generic [ref=e654]: 603259 | 98.55
+          - generic [ref=e655]: 跌破20日线, RSI中性(50.8)
+        - generic [ref=e656]:
+          - generic [ref=e657]: "42"
+          - generic [ref=e658]: 评分
+        - generic [ref=e659]: 偏空持有
+      - generic [ref=e660] [cursor=pointer]:
+        - generic [ref=e661]: "22"
+        - generic [ref=e662]:
+          - generic [ref=e663]: 长城汽车
+          - generic [ref=e664]: 601633 | 20.66
+          - generic [ref=e665]: 跌破20日线, RSI中性(50.6)
+        - generic [ref=e666]:
+          - generic [ref=e667]: "42"
+          - generic [ref=e668]: 评分
+        - generic [ref=e669]: 偏空持有
+      - generic [ref=e670] [cursor=pointer]:
+        - generic [ref=e671]: "23"
+        - generic [ref=e672]:
+          - generic [ref=e673]: 比亚迪
+          - generic [ref=e674]: 002594 | 101.53
+          - generic [ref=e675]: 跌破20日线, RSI中性(42.8), KDJ死叉
+        - generic [ref=e676]:
+          - generic [ref=e677]: "34"
+          - generic [ref=e678]: 评分
+        - generic [ref=e679]: 偏空持有
+      - generic [ref=e680] [cursor=pointer]:
+        - generic [ref=e681]: "24"
+        - generic [ref=e682]:
+          - generic [ref=e683]: 中国中免
+          - generic [ref=e684]: 601888 | 67.27
+          - generic [ref=e685]: 均线空头排列, 跌破20日线, RSI中性(38.8)
+        - generic [ref=e686]:
+          - generic [ref=e687]: "33"
+          - generic [ref=e688]: 评分
+        - generic [ref=e689]: 偏空持有
+      - generic [ref=e690] [cursor=pointer]:
+        - generic [ref=e691]: "25"
+        - generic [ref=e692]:
+          - generic [ref=e693]: 五 粮 液
+          - generic [ref=e694]: 000858 | 101.18
+          - generic [ref=e695]: 均线空头排列, 跌破20日线, RSI中性(40.2)
+        - generic [ref=e696]:
+          - generic [ref=e697]: "27"
+          - generic [ref=e698]: 评分
+        - generic [ref=e699]: 建议卖出
+      - generic [ref=e700] [cursor=pointer]:
+        - generic [ref=e701]: "26"
+        - generic [ref=e702]:
+          - generic [ref=e703]: 格力电器
+          - generic [ref=e704]: 000651 | 36.91
+          - generic [ref=e705]: 均线空头排列, 跌破20日线, RSI中性(33.5)
+        - generic [ref=e706]:
+          - generic [ref=e707]: "27"
+          - generic [ref=e708]: 评分
+        - generic [ref=e709]: 建议卖出
+      - generic [ref=e710] [cursor=pointer]:
+        - generic [ref=e711]: "27"
+        - generic [ref=e712]:
+          - generic [ref=e713]: 泸州老窖
+          - generic [ref=e714]: 000568 | 100.61
+          - generic [ref=e715]: 均线空头排列, 跌破20日线, RSI中性(32.9)
+        - generic [ref=e716]:
+          - generic [ref=e717]: "27"
+          - generic [ref=e718]: 评分
+        - generic [ref=e719]: 建议卖出
+      - generic [ref=e720] [cursor=pointer]:
+        - generic [ref=e721]: "28"
+        - generic [ref=e722]:
+          - generic [ref=e723]: 兴业银行
+          - generic [ref=e724]: 601166 | 18.42
+          - generic [ref=e725]: 均线空头排列, 跌破20日线, RSI中性(38.6)
+        - generic [ref=e726]:
+          - generic [ref=e727]: "27"
+          - generic [ref=e728]: 评分
+        - generic [ref=e729]: 建议卖出
+      - generic [ref=e730] [cursor=pointer]:
+        - generic [ref=e731]: "29"
+        - generic [ref=e732]:
+          - generic [ref=e733]: 迈瑞医疗
+          - generic [ref=e734]: 300760 | 158.85
+          - generic [ref=e735]: 均线空头排列, 跌破20日线, MA5/10死叉
+        - generic [ref=e736]:
+          - generic [ref=e737]: "23"
+          - generic [ref=e738]: 评分
+        - generic [ref=e739]: 建议卖出

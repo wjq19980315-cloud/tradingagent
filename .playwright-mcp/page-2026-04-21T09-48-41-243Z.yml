@@ -1,0 +1,111 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: A股智能分析系统
+    - generic [ref=e5]:
+      - button "股票分析" [ref=e6] [cursor=pointer]
+      - button "今日推荐" [ref=e7] [cursor=pointer]
+      - button "我的自选" [ref=e8] [cursor=pointer]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - textbox "输入A股代码，如 600519" [ref=e13]: "600519"
+        - button "开始分析" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "贵州茅台" [ref=e16] [cursor=pointer]
+        - button "宁德时代" [ref=e17] [cursor=pointer]
+        - button "比亚迪" [ref=e18] [cursor=pointer]
+        - button "招商银行" [ref=e19] [cursor=pointer]
+        - button "中国平安" [ref=e20] [cursor=pointer]
+        - button "五粮液" [ref=e21] [cursor=pointer]
+        - button "美的集团" [ref=e22] [cursor=pointer]
+        - button "隆基绿能" [ref=e23] [cursor=pointer]
+        - button "长江电力" [ref=e24] [cursor=pointer]
+        - button "中国中免" [ref=e25] [cursor=pointer]
+    - generic [ref=e26]:
+      - heading "贵州茅台 600519" [level=2] [ref=e341]
+      - paragraph [ref=e342]: "数据来源: 腾讯财经"
+      - generic [ref=e343]:
+        - img [ref=e345]
+        - generic [ref=e348]: "42"
+        - generic [ref=e349]: 偏空持有
+      - generic [ref=e350]:
+        - heading "偏空持有" [level=2] [ref=e351]
+        - paragraph [ref=e352]: 综合评分 42/100
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - generic [ref=e355]: 当前价
+          - generic [ref=e356]: "1412.01"
+        - generic [ref=e357]:
+          - generic [ref=e358]: MA5
+          - generic [ref=e359]: "1432.1"
+        - generic [ref=e360]:
+          - generic [ref=e361]: MA10
+          - generic [ref=e362]: "1443.02"
+        - generic [ref=e363]:
+          - generic [ref=e364]: MA20
+          - generic [ref=e365]: "1437.72"
+        - generic [ref=e366]:
+          - generic [ref=e367]: RSI(14)
+          - generic [ref=e368]: "38.6"
+        - generic [ref=e369]:
+          - generic [ref=e370]: MACD
+          - generic [ref=e371]: "-2.28"
+        - generic [ref=e372]:
+          - generic [ref=e373]: KDJ-K
+          - generic [ref=e374]: "28.8"
+        - generic [ref=e375]:
+          - generic [ref=e376]: 布林中轨
+          - generic [ref=e377]: "1437.72"
+        - generic [ref=e378]:
+          - generic [ref=e379]: ATR
+          - generic [ref=e380]: "22.59"
+      - generic [ref=e381]:
+        - generic [ref=e382]: 跌破20日线
+        - generic [ref=e383]: RSI中性(38.6)
+      - generic [ref=e384]:
+        - button "K线图表" [ref=e385] [cursor=pointer]
+        - button "买卖信号" [ref=e386] [cursor=pointer]
+        - button "历史数据" [ref=e387] [cursor=pointer]
+        - button "相关新闻" [active] [ref=e388] [cursor=pointer]
+        - button "基本面" [ref=e389] [cursor=pointer]
+      - generic [ref=e403]:
+        - generic [ref=e404]:
+          - heading "贵州茅台:贵州茅台关于日常关联交易的公告" [level=4] [ref=e405]
+          - generic [ref=e406]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e407]: 贵州茅台:贵州茅台关于日常关联交易的公告
+        - generic [ref=e408]:
+          - heading "贵州茅台:贵州茅台对会计师事务所2025年度履职情况的评估报告" [level=4] [ref=e409]
+          - generic [ref=e410]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e411]: 贵州茅台:贵州茅台对会计师事务所2025年度履职情况的评估报告
+        - generic [ref=e412]:
+          - heading "贵州茅台:贵州茅台2025年环境、社会及治理(ESG)报告(英文版)" [level=4] [ref=e413]
+          - generic [ref=e414]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e415]: 贵州茅台:贵州茅台2025年环境、社会及治理(ESG)报告(英文版)
+        - generic [ref=e416]:
+          - heading "贵州茅台:贵州茅台2025年度独立董事述职报告(郭田勇)" [level=4] [ref=e417]
+          - generic [ref=e418]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e419]: 贵州茅台:贵州茅台2025年度独立董事述职报告(郭田勇)
+        - generic [ref=e420]:
+          - heading "贵州茅台:贵州茅台2025年度独立董事述职报告(盛雷鸣)" [level=4] [ref=e421]
+          - generic [ref=e422]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e423]: 贵州茅台:贵州茅台2025年度独立董事述职报告(盛雷鸣)
+        - generic [ref=e424]:
+          - heading "贵州茅台:贵州茅台2025年度环境、社会和治理(ESG)报告摘要" [level=4] [ref=e425]
+          - generic [ref=e426]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e427]: 贵州茅台:贵州茅台2025年度环境、社会和治理(ESG)报告摘要
+        - generic [ref=e428]:
+          - heading "贵州茅台:贵州茅台关于续聘会计师事务所的公告" [level=4] [ref=e429]
+          - generic [ref=e430]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e431]: 贵州茅台:贵州茅台关于续聘会计师事务所的公告
+        - generic [ref=e432]:
+          - heading "贵州茅台:关于贵州茅台酒股份有限公司非经营性资金占用及其他关联资金往来情况的专项审计说明" [level=4] [ref=e433]
+          - generic [ref=e434]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e435]: 贵州茅台:关于贵州茅台酒股份有限公司非经营性资金占用及其他关联资金往来情况的专项审计说明
+        - generic [ref=e436]:
+          - heading "贵州茅台:关于贵州茅台酒股份有限公司涉及财务公司关联交易的存款、贷款等金融业务的专项说明" [level=4] [ref=e437]
+          - generic [ref=e438]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e439]: 贵州茅台:关于贵州茅台酒股份有限公司涉及财务公司关联交易的存款、贷款等金融业务的专项说明
+        - generic [ref=e440]:
+          - heading "贵州茅台:贵州茅台关于“提质增效重回报”工作2025年度行动方案评估报告暨2026年度行动方案的公告" [level=4] [ref=e441]
+          - generic [ref=e442]: 2026-04-17 | 东方财富公告
+          - paragraph [ref=e443]: 贵州茅台:贵州茅台关于“提质增效重回报”工作2025年度行动方案评估报告暨2026年度行动方案的公告

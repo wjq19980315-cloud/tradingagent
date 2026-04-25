@@ -1,0 +1,75 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: A股智能分析系统
+    - generic [ref=e5]:
+      - button "股票分析" [ref=e6] [cursor=pointer]
+      - button "今日推荐" [ref=e7] [cursor=pointer]
+      - button "我的自选" [ref=e8] [cursor=pointer]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - textbox "输入A股代码，如 600519" [ref=e13]: "600519"
+        - button "开始分析" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "贵州茅台" [active] [ref=e16] [cursor=pointer]
+        - button "宁德时代" [ref=e17] [cursor=pointer]
+        - button "比亚迪" [ref=e18] [cursor=pointer]
+        - button "招商银行" [ref=e19] [cursor=pointer]
+        - button "中国平安" [ref=e20] [cursor=pointer]
+        - button "五粮液" [ref=e21] [cursor=pointer]
+        - button "美的集团" [ref=e22] [cursor=pointer]
+        - button "隆基绿能" [ref=e23] [cursor=pointer]
+        - button "长江电力" [ref=e24] [cursor=pointer]
+        - button "中国中免" [ref=e25] [cursor=pointer]
+    - generic [ref=e26]:
+      - heading "贵州茅台 600519" [level=2] [ref=e341]
+      - paragraph [ref=e342]: "数据来源: 腾讯财经"
+      - generic [ref=e343]:
+        - img [ref=e345]
+        - generic [ref=e348]: "42"
+        - generic [ref=e349]: 偏空持有
+      - generic [ref=e350]:
+        - heading "偏空持有" [level=2] [ref=e351]
+        - paragraph [ref=e352]: 综合评分 42/100
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - generic [ref=e355]: 当前价
+          - generic [ref=e356]: "1412.01"
+        - generic [ref=e357]:
+          - generic [ref=e358]: MA5
+          - generic [ref=e359]: "1432.1"
+        - generic [ref=e360]:
+          - generic [ref=e361]: MA10
+          - generic [ref=e362]: "1443.02"
+        - generic [ref=e363]:
+          - generic [ref=e364]: MA20
+          - generic [ref=e365]: "1437.72"
+        - generic [ref=e366]:
+          - generic [ref=e367]: RSI(14)
+          - generic [ref=e368]: "38.6"
+        - generic [ref=e369]:
+          - generic [ref=e370]: MACD
+          - generic [ref=e371]: "-2.28"
+        - generic [ref=e372]:
+          - generic [ref=e373]: KDJ-K
+          - generic [ref=e374]: "28.8"
+        - generic [ref=e375]:
+          - generic [ref=e376]: 布林中轨
+          - generic [ref=e377]: "1437.72"
+        - generic [ref=e378]:
+          - generic [ref=e379]: ATR
+          - generic [ref=e380]: "22.59"
+      - generic [ref=e381]:
+        - generic [ref=e382]: 跌破20日线
+        - generic [ref=e383]: RSI中性(38.6)
+      - generic [ref=e384]:
+        - button "K线图表" [ref=e385] [cursor=pointer]
+        - button "买卖信号" [ref=e386] [cursor=pointer]
+        - button "历史数据" [ref=e387] [cursor=pointer]
+        - button "相关新闻" [ref=e388] [cursor=pointer]
+        - button "基本面" [ref=e389] [cursor=pointer]
+      - generic [ref=e390]:
+        - heading "K线走势 + 均线" [level=4] [ref=e392]
+        - heading "MACD" [level=4] [ref=e395]
+        - heading "RSI" [level=4] [ref=e398]
+        - heading "KDJ" [level=4] [ref=e401]
