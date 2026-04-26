@@ -15,10 +15,9 @@ load_dotenv()
 
 # Create a custom config
 config = DEFAULT_CONFIG.copy()
-config["deep_think_llm"] = "claude-sonnet-4-6"  
-config["quick_think_llm"] = "claude-sonnet-4-6"  
-config["backend_url"] = "https://api.clawsocket.com/v1"
-config["max_debate_rounds"] = 1  # Increase debate rounds
+config["deep_think_llm"] = "glm-5.1"
+config["quick_think_llm"] = "glm-5.1"
+config["max_debate_rounds"] = 1
 
 # Configure data vendors (default uses yfinance, no extra API keys needed)
 config["data_vendors"] = {
