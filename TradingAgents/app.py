@@ -1107,10 +1107,42 @@ a { color: var(--accent); text-decoration:none; }
 
 /* 响应式 */
 @media(max-width:768px) {
-    .search-bar input { width:200px; }
-    .metrics-grid { grid-template-columns:repeat(3,1fr); }
-    .navbar .inner { flex-direction:column; gap:10px; }
-    .rec-card { flex-direction:column; text-align:center; }
+    .navbar .inner { flex-direction:column; gap:10px; padding:0 12px; }
+    .navbar .nav-tabs { width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    .navbar .nav-tabs button { padding:8px 14px; font-size:13px; flex-shrink:0; }
+    .container { padding:12px; }
+    .search-bar { flex-direction:column; width:100%; }
+    .search-bar input { width:100%; font-size:16px; padding:12px 16px; }
+    .search-bar button { width:100%; padding:14px; font-size:16px; }
+    .quick-tags { gap:6px; }
+    .quick-tags button { padding:7px 12px; font-size:12px; }
+    .metrics-grid { grid-template-columns:repeat(3,1fr); gap:8px; }
+    .metric-card { padding:10px 6px; }
+    .metric-card .val { font-size:16px; }
+    .metric-card .label { font-size:11px; }
+    .fund-grid { grid-template-columns:repeat(2,1fr); gap:8px; }
+    .fund-item .value { font-size:14px; }
+    .rec-card { flex-direction:column; text-align:center; padding:14px; }
+    .signal-banner h2 { font-size:24px; }
+    .signal-banner p { font-size:14px; }
+    .score-gauge { width:150px; height:75px; }
+    .score-gauge svg { width:150px; height:75px; }
+    .score-number { font-size:32px; }
+    .chart-container { padding:12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    .data-table { font-size:11px; display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    .data-table th, .data-table td { padding:6px 4px; white-space:nowrap; }
+    .news-card { padding:14px; }
+    .advice-box { padding:16px; }
+    .bs-item { padding:8px 10px; gap:8px; }
+    .wl-add { flex-direction:column; }
+    .wl-add input { width:100%; }
+    .sub-tabs { gap:0; }
+    .sub-tab { padding:10px 14px; font-size:13px; }
+}
+@media(max-width:480px) {
+    .metrics-grid { grid-template-columns:repeat(2,1fr); }
+    .fund-grid { grid-template-columns:1fr 1fr; }
+    .navbar .logo { font-size:18px; }
 }
 </style>
 </head>
